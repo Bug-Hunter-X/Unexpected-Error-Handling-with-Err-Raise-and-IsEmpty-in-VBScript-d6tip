@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error handling issue in VBScript. The `bug.vbs` file shows a function that uses `Err.Raise` within an `IsEmpty` check. This can lead to unpredictable behavior if not handled correctly.  The `bugSolution.vbs` provides a more robust solution.  Please see the file contents for details.
